@@ -5,16 +5,17 @@
 // git branch -M main
 // git remote add origin https://github.com/RidaDwiHanifah/Temperature-Monitoring-via-ESP32-and-Blynk-Using-DHT22-Sensor.git
 // git push -u origin main
-#define BLYNK_TEMPLATE_ID "TMPL6Z5YfkeYt"
-#define BLYNK_TEMPLATE_NAME "Suhu"
-#define BLYNK_AUTH_TOKEN "2Rh9F8HSs8DR0fy1qAKvmSp4UcrEyvsC"
+#define BLYNK_TEMPLATE_ID "YOUR ID"
+#define BLYNK_TEMPLATE_NAME "Your Name"
+#define BLYNK_AUTH_TOKEN "Your Token"
+// The data above is shown in the Blynk app using the configured dashboard 
 
 #define BLYNK_PRINT Serial
 
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
-
+// Please download the library.
 
 #include <DHT.h>
 
